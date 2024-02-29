@@ -1,0 +1,69 @@
+[{
+    "id":1,
+    "category":"Modern Farmhouse",
+    "icon":"../../Assets/images/suggestion.svg",
+    "content":"Vonna Neva Walnut Sandalye Chair",
+    "price":"195,13 $",
+    "color":"#FBD3D3"
+},
+{
+    "id":2,
+    "category":"Eclectic Decor",
+    "icon":"../../Assets/images/suggestion.svg",
+    "content":"Wood lamp, Floor Lamp, Lambader, Decorative",
+    "price":"195,13 $",
+    "color":"#FFE4BD"
+},
+{
+    "id":3,
+    "category":"Polka Boho Decor",
+    "icon":"",
+    "content":"NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made With Multiple",
+    "price":"195,13 $",
+    "color":"#D9ABFD"
+},
+{
+    "id":4,
+    "category":"Minimalist Style",
+    "icon":"../../Assets/images/suggestion.svg",
+    "content":"Lace Punch Needle Pillow Covers with invisible zipper, 16*16 inches",
+    "price":"195,13 $",
+    "color":"#FDF0AB"
+
+},
+{
+    "id":5,
+    "category":"Anniversary Gift",
+    "icon":"../../Assets/images/suggestion.svg",
+    "content":"Lace Punch Needle Pillow Covers with invisible zipper, 16*16 inches",
+    "price":"195,13 $",
+    "color":"#FDF0AB"
+
+},
+{
+    "id":6,
+    "category":"Wedding Gifts",
+    "icon":"../../Assets/images/suggestion.svg",
+    "content":"Lace Punch Needle Pillow Covers with invisible zipper, 16*16 inches",
+    "price":"195,13 $",
+    "color":"#FDF0AB"
+
+},
+{
+    "id":7,
+    "category":"Modern Farmhouse",
+    "icon":"../../Assets/images/suggestion.svg",
+    "content":"Lace Punch Needle Pillow Covers with invisible zipper, 16*16 inches",
+    "price":"195,13 $",
+    "color":"#FDF0AB"
+
+},
+{
+    "id":8,
+    "category":"Modern Farmhouse",
+    "icon":"../../Assets/images/suggestion.svg",
+    "content":"Lace Punch Needle Pillow Covers with invisible zipper, 16*16 inches",
+    "price":"195,13 $",
+    "color":"#FDF0AB"
+
+}]

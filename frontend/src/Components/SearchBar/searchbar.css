@@ -1,0 +1,20 @@
+.search
+{
+    display:flex;
+}
+.searchbar-styling
+{
+    border:none;
+    width:327px;
+    margin-top:6px;
+}
+input:focus
+{
+    outline:none;
+}
+.searchIcon svg
+{
+    color:#3E3E3E;
+    margin-left: 40px;
+    margin-top: 11px;
+}

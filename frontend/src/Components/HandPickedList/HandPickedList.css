@@ -1,0 +1,21 @@
+.hand-picked-items{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.hand-pick-discover{
+    width: 50%;
+}
+.hand-pick-discover p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.handpicked-showall{
+    height: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: orange;
+}

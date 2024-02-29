@@ -1,0 +1,117 @@
+.product-description{
+    padding: 10px 30px 10px;
+}
+.about-product-buttons{
+
+    background-color: white;
+    border: none;
+    width: 90px;
+    margin: 5px;
+    padding: 15px;
+}
+.about-product-button button:hover{
+    color: #EB8426;
+    border-bottom: 1px solid #EB8426;
+
+}
+.about-product-buttons-click{
+    background-color: white;
+    border: none;
+    width: 90px;
+    margin: 5px;
+    padding: 15px;
+    color: #EB8426;
+    border-bottom: 1px solid #EB8426;
+}
+.about-item{
+    background: #F5F6F8;
+    padding: 2%;
+    width: 790px;
+    font-weight: 500;
+    font-size: 12px;
+    overflow: auto;
+    position: relative;
+    
+}
+.about-item select{
+    position: absolute;
+    right: 4%;
+    border: none;
+    background-color: white;
+    padding: 5px;
+}
+.about-item select option{
+    border: none;
+    background-color:white;
+}
+.options:hover{
+    font-size: 20px;
+    background-color: #F79320 !important;
+
+
+}
+.review-users{
+    display: flex;
+    justify-content: space-between;
+}
+.review-users-details{
+    font-size: 12px;
+    font-weight: 400;
+    width: 95%;
+}
+.review-user-name{
+    font-weight: 600;
+}
+.review-user-comment{
+    color: #F79320;
+}
+.technical-details{
+    margin-top: 2%;
+}
+.technical-details p{
+font-weight: 600;
+font-size: 14px;
+}
+.technical-details table{
+    width: 790px;
+}
+.technical-details table tr{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.technical-details table tr td{
+
+    padding: 8px;
+}
+.spec{
+    padding-left: 2%;
+    width: 30%;
+    background-color: #F5F6F8; 
+    margin-right: 3%;
+}
+.spec-cont{
+    padding-left: 2%;
+    background-color: #F5F6F8; 
+    width: 68%;
+}
+.product-suggetions-carousel{
+    padding-top: 2%;
+    margin-bottom: 30px;
+}
+
+.suggestion-head{
+    font-size: 14px;
+    font-weight: 400;
+}
+.suggestion-polka{
+    font-size: 12px;
+    color: #9A9A9A;
+}
+.suggestion-head p{
+    margin: 0;
+    padding-left: 30px;
+}

@@ -1,0 +1,23 @@
+.card-expiry{
+    display: flex;
+}
+.cvv-details{
+    display: flex;
+
+}
+.cvv-info{
+    padding-top: 20px;
+    font-size: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ant-checkbox-checked .ant-checkbox-inner{
+    background-color: #F79320;
+    border-color: #F79320;
+}
+.credit-card .ant-btn.ant-btn-primary{
+    background: #F79320;
+    border-color: #F79320;
+}

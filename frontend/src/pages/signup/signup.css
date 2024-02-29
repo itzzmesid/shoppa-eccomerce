@@ -1,0 +1,215 @@
+.SignupPage
+{
+    display:flex;
+    position:relative;
+}
+.background_yellow
+{
+    background-color: #FFF9F3;
+    margin-left:13%;
+    width:32%;
+    height:668px;
+    position:relative;
+
+}
+.shoppa_main
+{
+    position: absolute;
+    left: 20%;
+    top: 7.5%;
+}
+.title
+{
+    font-weight:bold;
+    position: absolute;
+    left: 45%;
+    top: 11.5%;
+    font-size:24px;
+}
+.shoppa_logo
+{
+    position: absolute;
+    left: 27.57%;
+    top: 13.98%;
+}
+.sub_title
+{
+    font-size:25px;
+    font-weight:bold;
+    position: absolute;
+    left: 27.57%;
+    top: 26%;
+    font-style: normal;
+    line-height: 116%;
+    width:50%;
+}
+.signup_image
+{
+    width: 204.6px;
+    height: 344.6px;
+    margin-left: 21%;
+    margin-top: 100%;
+}
+.sign_in p{
+    margin-top:8px;
+}
+.handle
+{
+    position: absolute;
+    width: 4.9%;
+    top: 12.9%;
+    left: 102.2px;
+}
+.form_part
+{
+    width:44%;
+    margin-left: 8%;
+}
+.sign_in
+{
+    display: flex;
+    margin-top: 12%;
+    font-size: 14px;
+}
+.sign_in_link
+{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: #F79320;
+    font-weight: bold;
+    text-decoration:none;
+}
+.seller_login_link{
+    margin-top: 2%;
+    margin-left: 20%;
+    color: black;
+    font-weight: bold;
+}
+.signup_heading
+{
+    font-weight:bold !important;
+    margin-top:25px;
+}
+.signup_email_button
+{
+    background-color: #4285F4 !important;
+    color: white;
+    width: 91%;
+    padding: 2%;
+    font-size: 14px;
+    border: none;
+    border-radius: none !important;
+    position:relative;
+}
+.mail_image
+{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+.signup_form_separating_line hr
+{
+    width: 40%;
+    height: 0px;
+    margin-top: 29px;
+}
+.signup_form_separating_line p{
+    margin-top:18px;
+}
+.form_beginning
+{
+    display:flex;
+    width:91.5%;
+    justify-content: space-between;
+}
+
+
+.signup_form 
+{
+    font-size:14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.inputfield input[type]
+{
+    background-color:#F5F6F8 !important;
+    height:35px !important;
+    border:none !important;
+}
+.signup_heading h1
+{
+    font-size:20px;
+    font-weight:bold !important;
+}
+.agreement_checkbox
+{
+color:#878888 !important;
+    font-size:14px;
+}
+.agreement_hyperlinks
+{
+    color:#3F96D4;
+}
+.create_account_button
+{
+    background-color: #F79320 !important;
+    color: white;
+    width: 170px;
+    padding: 2%;
+    font-size: 14px;
+    border: none !important;
+    border-radius: 1px;
+    font-weight:bold !important;
+}
+.shopping_bag_image
+{
+    width:30%;
+}
+.bag{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+.inputfield_width
+{
+    width:150px !important;
+}
+.email_inputfield
+{
+    width:380px !important;
+}
+input[type="password"]{
+    width:380px;
+    
+}
+#password{
+    width:380px !important;
+    
+}
+@media (min-width: 576px){
+.ant-col-sm-offset-8 
+{
+    margin-left:0px !important;
+}
+.ant-col-sm-16
+{
+    max-width:none !important;
+}
+}
+.ant-form-item-explain-error
+{
+    font-size: 11px;
+}
+.signup_form .ant-form-item-feedback-icon-success
+{
+    display:none;
+
+}
+.signup_form .ant-form-item-feedback-icon-error
+{
+    display:none;
+}

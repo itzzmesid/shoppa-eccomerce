@@ -1,0 +1,142 @@
+.sidebar-and-content
+{
+    display:flex;
+}
+.analytics
+{
+    margin-top:10px;
+}
+.content
+{
+    margin-left:10px;
+    background-color:#F5F6F8;
+    height:98vh;
+    width:1056px;
+}
+.dates
+{
+    padding-left:12px;
+    padding-top:10px;
+    display:flex;
+    justify-content: space-between;
+    width:245px;
+}
+.ant-picker
+{
+    width:113px;
+    height:22px;
+}
+.vendorgraph
+{
+    height: 250px;
+    width: 59%;
+    margin-left:12px;
+    
+}
+.pie-chart
+{
+    margin-left: 30px;
+    height: 240px;
+}
+.table 
+{
+    width: 609px;
+    /* height:250px; */
+    margin-left: 12px;
+    margin-top: 14px;
+
+}
+
+.table .ant-table-tbody > tr > td{
+    padding:5px;
+    border-bottom:none;
+    font-size:12px;
+    
+  }
+  .table .ant-table-thead > tr > th
+  {
+    background:none;
+  }
+  .table .ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+    width:0;
+  }
+ .table .ant-table-title
+  {
+    color:#030229;
+  }
+.table .ant-table {
+    color: #030229;
+}
+.table .ant-table-column-title 
+{
+    color:#030229;
+}
+.table .ant-table-title + .ant-table-container table > thead > tr:first-child th:last-child{
+    color:#030229;
+}
+.footer-divider-vendor-page
+{
+    margin-top:15px;
+}
+.vendor-footer-end
+{
+    margin-top:100px;
+}
+.top-selling-products
+{
+    margin-top:14px;
+    width: 290px;
+    height: 270px;
+    background-color: white;
+    margin-left:30px;
+}
+.vendor-statistics
+{
+    display:flex;
+    margin-left:8px;
+}
+.top-selling-products-heading{
+    color:#000000;
+    padding-top:20px;
+    padding-left:20px;
+}
+.top-selling-images
+{
+    display:flex;   
+    margin-left:20px;
+}
+.shoe-image
+{
+    width: 75px;
+    margin-top: -15px;
+}
+.product-alignment p{
+    margin-left:14px;
+}
+.star-rating-alignment
+{
+    margin-top:-16px;
+}
+.ant-divider-horizontal
+{
+    margin:0;
+} 
+.iphone-image
+{
+    width: 75px;
+}
+
+.total-order {
+    background-color:rgb(38, 192, 226,0.1) ;
+    border-radius:8px;
+    height:25px;
+    text-align:center;
+    width:50%;
+    margin-left:15px;
+    color:rgb(38, 192, 226);
+    font-weight:bold;
+}
+.product-image
+{
+    width:30px;
+}

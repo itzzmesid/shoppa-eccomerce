@@ -1,0 +1,45 @@
+.sidebar
+{
+    height:98vh;
+    background-color:#F5F6F8;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+}
+.sidebar-images
+{
+    position:absolute;
+    bottom:29px;
+    display:flex;
+    flex-direction:column;
+    margin-left:22px;
+}
+.profilephoto
+{
+    height:50px;
+    width:18px;
+}
+.logout
+{
+    height:18px;
+    width:18px;
+}
+.sidebar-icons
+{
+    margin-bottom:5px;
+}
+.ant-menu-item-selected
+{
+    color:#F79320;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color:white;
+}
+.ant-menu-inline .ant-menu-selected::after, .ant-menu-inline .ant-menu-item-selected::after {
+    opacity:0;
+}
+.ant-menu-submenu-selected
+{
+    color:#F79320;
+}

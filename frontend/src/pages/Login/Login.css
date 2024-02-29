@@ -1,0 +1,89 @@
+.loginpage_common
+{
+    display:flex;
+}
+.login-form-aligning
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-direction:column;
+    margin-left:90px;
+}
+.background-yellow-login
+{
+    background-color: #FFF9F3;
+    margin-left: 15%;
+    width: 25%;
+    height: 650px;
+    position: relative;
+}
+.login-form
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:30vh;
+    /* width:380px; */
+    position:relative;
+}
+.input[type="password"]
+{
+    width:100px;
+}
+.remember-me-checkbox
+{
+    font-size:14px;
+}
+.input[type='checkbox']{
+    height:11px;
+}
+.login-form-forgot
+{
+    position:absolute;
+    right:0px;
+    color:#F79320;
+}
+.login-form-button
+{
+    background-color: #F79320 !important;
+    color: white;
+    width: 170px;
+    padding: 2%;
+    font-size: 16px;
+    border: none !important;
+    border-radius: 1px;
+    font-weight:bold;
+}
+.register_link
+{
+    position:absolute;
+    right:0px;
+    color:#F79320;
+    
+}
+
+.login_email_button
+{
+    background-color: #4285F4 !important;
+    color: white;
+    width: 400px;
+    padding: 1%;
+    font-size: 14px;
+    border: none;
+    border-radius: 1px;
+    position:relative;
+    font-weight:bold;
+}
+.login-username-inputfield input[type]
+{
+    background-color:#F5F6F8;
+    height:35px;
+    border:none !important;
+    width:380px;
+}
+.ant-input-affix-wrapper 
+{
+    border:none !important;
+}

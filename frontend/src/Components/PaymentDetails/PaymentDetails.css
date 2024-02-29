@@ -1,0 +1,33 @@
+.payment-details{
+    display: flex;
+    margin-bottom: 100px;
+}
+.payment-tabs{
+    width: 60%;
+}
+.payment-tabs .ant-tabs-top > .ant-tabs-nav::before{
+    border: none;
+}
+.payment-tabs .ant-tabs-top > .ant-tabs-nav:hover{
+    color: black ;
+    border: none;
+}
+.payment-tabs  .ant-tabs-ink-bar {
+    height: 5px;
+    display: none;
+  }
+.payment-tabs .ant-tabs-tab.ant-tabs-tab-active {
+    border: 2px solid #F79320 ;
+    z-index: 2;
+}
+.payment-tabs .ant-tabs-tab.ant-tabs-tab-active  .ant-tabs-tab-btn{
+    color: #0b0b0b ;
+    font-weight: 200 ;
+    text-shadow: none ;
+  }
+.payment-tabs .ant-tabs-tab{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    border: 2px ;
+  }

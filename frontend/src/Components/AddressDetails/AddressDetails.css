@@ -1,0 +1,211 @@
+.address-details {
+    font-size: 14px;
+    width: 70%;
+   
+
+}
+.address{
+     padding: 10px 30px 10px;
+}
+
+.delivery-address {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.address-main {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 400px;
+
+}
+
+.address-field {
+    border: 1px solid #F79320;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    position: relative;
+    padding-right: 4%;
+
+}
+
+.address-field-border {
+    border: 1px solid #40e0d0;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.place {
+    position: absolute;
+    right: 2%;
+    font-size: 10px;
+    top: 4%;
+    border: 1px solid #F79320;
+    border-radius: 50px;
+    width: 40px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.contact img {
+    margin-right: 5px;
+}
+
+.address-field-border p {
+    margin: 0 !important;
+}
+
+.address-field label {
+    width: 100%;
+}
+
+.address-field-border label {
+    width: 100%;
+}
+
+.address-field p {
+    margin: 0 !important;
+}
+
+.user-name {
+    font-weight: 600;
+}
+
+.option-input {
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    margin-right: 4%;
+}
+
+.option-input:hover {
+    background: #9faab7;
+}
+
+.option-input:checked {
+    background: #F79320;
+}
+
+.option-input:checked::before {
+    width: 10px;
+    height: 10px;
+    margin-left: 3px;
+    content: url('../../Assets/Icons/tick.svg');
+    font-weight: bold;
+    justify-content: center;
+}
+
+.option-input:checked::after {
+    background: #40e0d0;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.option-input.radio {
+    border-radius: 50%;
+}
+
+.option-input.radio::after {
+    border-radius: 50%;
+}
+
+.address-edit-buttons {
+    position: relative;
+}
+
+.address-edit-buttons button {
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+.remove-address {
+    margin-left: 5px;
+    border-bottom: 1px solid #F79320;
+    color: #F79320;
+}
+
+.add-address {
+    margin-top: 5%;
+}
+
+.add-address button {
+    width: 100%;
+    height: 50px;
+    border: 1px dotted #9faab7;
+    background-color: white;
+}
+
+.add-address button img {
+    margin-right: 12px;
+}
+
+.address-form {
+    display: none;
+    border: 1px dotted #9faab7;
+    padding: 2%;
+    margin-top: 2%;
+
+}
+
+.address-form-display {
+    display: block;
+    border: 1px dotted #9faab7;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.default-button {
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+}
+
+.default-button button {
+
+    background: white;
+    border: none;
+    font-size: 12px;
+    color: #F79320
+}

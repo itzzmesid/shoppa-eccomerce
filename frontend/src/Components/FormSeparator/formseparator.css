@@ -1,0 +1,8 @@
+.signup_form_separating_line
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:383px;
+    color:grey;
+}

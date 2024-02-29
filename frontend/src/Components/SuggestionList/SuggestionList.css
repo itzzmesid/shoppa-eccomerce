@@ -1,0 +1,104 @@
+.suggestions{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 2%;
+}
+.suggested-products{
+    border-radius: 5px;
+    position: relative;
+    
+    padding: 6px 20px 2px;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.suggested-products-image{
+    height: 180px;
+    width: 180px;
+    margin: 25px 8px 10px;
+}
+.suggested-products-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.wishlist{
+    position: absolute;
+    right: 3%;
+    padding-top: 3px;
+    height: 25px !important;
+    border-radius: 50%;
+    border: none;
+    z-index: 10;
+}
+.wishlist:hover{
+    background-color:#F5F6F8;
+    color: red;
+}
+.wishlist-click{
+    position: absolute;
+    right: 3%;
+    height: 25px !important;
+    border-radius: 50%;
+    border: none;
+    color: red;
+    z-index: 10;
+    padding-top: 3px;
+}
+.suggested-products button{
+    border-radius: 50%;
+    border: none;
+    margin-left: 2px;
+    font-size: 12px;
+    height: 15px;
+}
+.color-button2{
+    
+    background-color: black;
+}
+.color-button3{
+    background-color: aqua;
+}
+.color-button4{
+    
+    background-color: red;
+}
+.color-button5{
+    
+    background-color: green;
+}
+.product-price-tag{
+    padding-top: 10px; 
+    font-weight: 600;
+}
+
+.add-to-cart-buttons{
+    position: absolute;
+    bottom: 0;
+    background: #F5F6F8;
+    width: 100%;
+    padding-top: 3px;
+    left: 0;
+    display: none;
+}
+.item-quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.add-to-cart-buttons Button{
+    width: 100% !important;
+    height: 30px !important;
+    border-radius: 0% !important;
+    background: #F79320 !important;
+    border-color: #F79320;
+}
+.add-to-cart-buttons Button:hover{
+    color: black;
+}
+.suggested-products:hover > .add-to-cart-buttons{
+    display: block;
+}

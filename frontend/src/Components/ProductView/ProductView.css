@@ -1,0 +1,138 @@
+.product-view{
+    padding: 10px 30px 10px;
+
+
+}
+.product-view p{
+    margin: 1%;
+}
+.product-path{
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 10px;
+}
+.product-details-view{
+    display: flex;
+    margin-top: 15px;
+}
+.product-carousel{
+    width: 45%;
+    background: #F5F6F8;
+    padding: 5px;
+}
+.product-content{
+    width: 55%;
+    padding: 2%;
+}
+.product-rating{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.product-rating p{
+    color: #4B5563;
+    font-size: 14px;
+}
+.product-rating a{
+    color: #6B7280;
+    font-size: 10px;
+    text-decoration: underline;
+    
+    
+}
+.product-rating a:hover{
+    cursor:grab
+}
+
+.product-content-head{
+    font-weight: 600;
+    font-size: 15px;
+}
+.product-vendor-name{
+    color: #F79320;
+    font-size: 12px;
+}
+.product-price{
+    font-weight: 600;
+    font-size: 18px;
+}
+.product-content-buttons{
+    color:#6B7280 ;
+}
+.product-colors button{
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin: 5px;
+}
+
+.product-size button{
+    width: 100px;
+    height: 60px;
+    margin: 4px;
+    background: white;
+    border: 1px solid #0B0B0B;
+    font-family: 'Poppins', sans-serif;
+}
+.product-size-name{
+    font-weight: 500;
+    font-size: 12px;
+}
+.product-size-inch{
+    font-size: 10px;
+}
+.add-product Button{
+    margin: 3px;
+    width: 260px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-cart{  
+    background-color: #F79320 !important; 
+    color: white !important;
+    border: none !important; 
+}
+.product-wishlist{
+    background-color: white;
+    border: 1px solid #0B0B0B;
+}
+.image-gallery-thumbnails{
+    height: 350px !important;
+}
+.image-gallery-thumbnail{
+    width: 60px;
+}
+.image-gallery-thumbnail-image{
+    height: 100% !important;
+    object-fit: contain;
+    
+}
+.image-gallery-image{
+    height: 300px !important;
+}
+.image-gallery-thumbnail.active{
+    border: 2px solid #6B7280;
+}
+.image-gallery-thumbnail:hover{
+    border: 2px solid #6B7280;
+}
+.image-gallery-slide-wrapper.left{
+    width: 80%;
+    padding-top: 10%;
+    margin-left: 70px;
+}
+.product-cart:hover{
+    color: white;
+    border-color: #F79320;
+    background: #F79320;
+}
+.image-gallery-thumbnail-inner{
+    width: 55px;
+    height: 60px;
+}
+
+.image-gallery-thumbnails-container{
+    transform: none !important;
+}

@@ -1,0 +1,73 @@
+.form-main-container{
+    display: flex;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.drag-drop{
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+    background: white;
+    
+}
+.product-main-description{
+     padding: 10px;
+    background: white;
+}
+.product-main-details{
+    display: flex;
+    justify-content: space-between;
+}
+.product-main-details Input{
+    background: #F5F6F8 ;
+}
+.form-main-container .ant-select-selector{
+    background: #F5F6F8 !important ;
+}
+.add-product-header{
+    font-weight: 600;
+}
+.vendor-product-categories{
+    margin-top: 20px;
+    padding: 10px;
+    background: white;
+}
+.add-product-control-button{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px ;
+    justify-content: space-between;
+}
+.save-changes-button:hover, .save-changes-button:focus {
+    color: #F5F6F8;
+    border:none;
+    background-color: #F79320;
+
+}
+.ant-upload.ant-upload-drag .ant-upload-btn{
+    background-color: white;
+    height: 300px;
+}
+.ant-upload.ant-upload-drag .ant-upload-btn svg{
+    color: #F79320;
+}
+.save-changes-button{
+    background-color: #F79320;
+    border: none;
+    width: 150px;
+    color: #F5F6F8;
+
+}
+.form-space{
+    position: relative;
+}
+.spec-delete-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

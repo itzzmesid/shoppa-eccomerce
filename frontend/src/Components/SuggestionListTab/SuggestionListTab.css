@@ -1,0 +1,28 @@
+.suggestion-tab-buttons{
+    padding-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestion-tab-buttons .ant-tabs-nav{
+    padding-left: 40px;
+}
+.suggestion-tab-buttons .ant-tabs.ant-tabs-top{
+    width: 100%;
+}
+.suggestion-tab-buttons  .ant-tabs-ink-bar {
+    height: 5px;
+    background-color: #F79320;
+  }
+.suggestion-tab-buttons .ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before{
+    border: none;
+}
+.suggestion-tab-buttons .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #F79320;
+}
+
+.suggestion-tab-buttons .ant-tabs-tab{
+    justify-content: center;
+   width: 160px;
+
+
+}
